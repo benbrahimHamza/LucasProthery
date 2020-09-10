@@ -1,3 +1,66 @@
+body {
+    background-image: url("../img/temp_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 h1, h2, h3, .custom-title {
     text-align: center;
+}
+
+.custom-title {
+    display: block;
+    width: 100%;
+    width: 100%;
+    padding: 2rem;
+}
+
+.custom-title:hover {
+    text-decoration: none;
+}
+
+.section {
+    min-height: 920px;
+    padding: 0;
+    transition: .8s ease;
+}
+
+.section:hover {
+    opacity: 40%;
+}
+
+.section-left {
+    background-color: #000;
+    border: .7rem solid #fff;
+    border-right: 0px;
+}
+
+.section-left .custom-title {
+    color: #000000;
+}
+
+.section-right {
+    background-color: #fff;
+    border: .7rem solid #000;
+    border-left: 0px;
+}
+
+.section-right .custom-title {
+    color: #ffffff;
+}
+
+.button-section {
+    margin-top: 50%;
+}
+
+.left-button-section {
+    margin: 50% 0% 0% 50%;
+    background-color: #fff;
+    border-radius: 20px 0px 0px 20px
+}
+
+.right-button-section {
+    margin: 50% 50% 0% 0%;
+    background-color: #000;
+    border-radius: 0px 20px 20px 0px
 }
